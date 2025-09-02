@@ -9,7 +9,7 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-const allowedOrigins = ['http://localhost:5173', 'https://trivshopy.shop'];
+const allowedOrigins = ['http://localhost:5173', 'https://virgocreations.in'];
 
 app.use(cors({
   origin: function (origin, callback) {
